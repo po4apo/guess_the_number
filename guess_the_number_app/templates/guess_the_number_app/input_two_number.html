@@ -1,0 +1,9 @@
+{% extends "main.html" %}
+
+{% block content %}
+    <h1>Выбирите интервал</h1>
+    <p>Первое число должно быть меньше второго</p>
+    {{ form.as_p }}
+    <input name="submit" type="submit" value="Отправить">
+
+{% endblock %}
